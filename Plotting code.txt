@@ -1,7 +1,0 @@
-k=0:pi/90:pi;
-for i=0:pi/90:pi/2
-    for j=0:pi/90:pi
-            plot(cos(i)+cos(i+j)+cos(i+j+k),sin(i)+sin(i+j)+sin(i+j+k),'.r','markersize',40);
-            hold on;
-    end
-end   
