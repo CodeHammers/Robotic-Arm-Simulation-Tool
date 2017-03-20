@@ -52,6 +52,9 @@ if(alpha>=-1&&alpha<=1)
   while(q33<0)
   q33=q33+360;
   end
+  else
+    printf("Cannot reach ,irony :V \n");
+    return;
  end
  if(q1!=q11&&q2!=q22&&q3!=q33)
  [q1 q2 q3 q11 q22 q33]
