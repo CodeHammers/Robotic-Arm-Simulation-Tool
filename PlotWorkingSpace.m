@@ -6,4 +6,4 @@ for i=MinQ1:maxQ1
             hold on;
     end
 end
-endfunction
+end

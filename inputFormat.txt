@@ -1,0 +1,14 @@
+/*for plotting*/ 
+l1 l2 l3
+minq1 maxq1
+minq2 maxq2
+minq3 maxq3
+/*for inverse kinematics */
+l1 l2 l3
+a b theta
+/*for max torque */
+l1 l2 l3 
+minq1 maxq1
+minq2 maxq2
+minq3 maxq3
+load

@@ -27,4 +27,4 @@ for i=MinQ1:10:MaxQ1
    end
 end
 retval = [m m2 m3];
-endfunction
+end

@@ -12,7 +12,7 @@ if(alpha>=-1&&alpha<=1)
   if(alpha==-0)
   alpha=0
   end
-  if(a!=0)
+  if(a~=0)
   q1=atan(b/a)-alpha;
   else
   q1=pi/2;
@@ -22,9 +22,8 @@ if(alpha>=-1&&alpha<=1)
   q1=(q1*180) / pi;
   q2 = (q2*180)/ pi;
   q3 = (q3*180)/pi;
-  q1
   alpha=-alpha;
-  if(a!=0)
+  if(a~=0)
   q11=atan(b/a)-alpha;
   else
   q11=pi/2-alpha;
@@ -53,14 +52,14 @@ if(alpha>=-1&&alpha<=1)
   q33=q33+360;
   end
   else
-    printf("Cannot reach ,irony :V \n");
+    disp('Cannot reach ,irony :V \n');
     return;
  end
- if(q1!=q11&&q2!=q22&&q3!=q33)
- [q1 q2 q3 q11 q22 q33]
+ if(q1~=q11&&q2~=q22&&q3~=q33)
+ disp([q1 q2 q3 q11 q22 q33]);
  retval= [q1 q2 q3 q11 q22 q33];
  else
- [q1 q2 q3]
+ disp([q1 q2 q3]);
  retval= [q1 q2 q3];
  end
-endfunction
+end
