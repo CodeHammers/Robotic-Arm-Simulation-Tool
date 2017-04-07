@@ -62,4 +62,4 @@ if(alpha>=-1&&alpha<=1)
  disp([q1 q2 q3]);
  retval= [q1 q2 q3];
  end
-end
+endfunction
